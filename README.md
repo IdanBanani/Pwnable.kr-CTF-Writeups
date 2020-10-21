@@ -8,6 +8,7 @@ https://www.youtube.com/playlist?list=PLK06XT3hFPziMAZj8QuoqC8iVaEbrlZWh
 
 https://research.checkpoint.com/wp-content/uploads/2020/03/pwnable_writeup.pdf
 
+Video WriteUps in Hebrew - https://www.youtube.com/watch?v=6QUeFn9AYtk&list=PL0bQ-dMhp1ybJRRu3UhcslUK3bQ_7hv3e
 ------------------------------------------------------------------------------------------
 
 ***"pwn"\*** - means to compromise or control, specifically another computer (server or PC), web site, gateway device, or application. It is synonymous with one of the definitions of hacking or cracking, including iOS jailbreaking.  - Wikipedia.
