@@ -152,3 +152,10 @@ int main(int argc, const char* argv[]) {
 ```
 ------
 ## Vulnerablities and Exploits : TBC
+Basically we would like to accomplish one of the following:
+**Depending on the mitigations enabled and the rest of the snipped code**
+- Manipulate the code execution flow to our injected code/shellcode  
+(Here the user can only play with the heap content.  
+overriding return addresses on the stack seems to be not possible here. 
+Maybe we can also manipulate records in the GOT/PLT.
+- Look for places in the rest of code for system calls like system()/excev()
