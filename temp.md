@@ -162,3 +162,5 @@ Basically we would like to accomplish one of the following:
 overriding return addresses on the stack seems to be not possible here. 
 Maybe we can also manipulate records in the GOT/PLT.
 - Look for places in the rest of code for system calls like system()/excev()
+- Possible UAF (If after freeing a memory location, a program does not clear the pointer to that memory,
+  an attacker can use the error to hack the program.)
