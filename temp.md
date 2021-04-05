@@ -107,7 +107,7 @@ Which might result in runtime error (It's a  **"Use after free"**)
 
 ------------
 
-## Fixed Code :
+## One possible fix for the Code :
 ```c
 #define MIN(a,b) (((a)<(b))?(a):(b))
 #define MAX_LEN 255
@@ -142,7 +142,10 @@ int main(int argc, const char* argv[]) {
 
     char* copy = f1(argv[1]);
     // ...snipped...
-    f2(copy); 
+    if(!copy)
+    	exit(-1); //add perror or use errno
+	
+    f2(copy);
     memcpy(copy, argv[2], 1); 
     // ...snipped...
     free(copy); 
